@@ -2,10 +2,13 @@
 import { RouterView } from 'vue-router'
 import MainHeader from '@/components/MainHeader.vue'
 import MainFooter from '@/components/MainFooter.vue'
+import PublicListPanel from '@/components/PublicListPanel.vue'
+import { useModalsStore } from '@/store/modals'
 </script>
 
 <template>
   <el-container class="main-container">
+    <PublicListPanel />
     <el-header class="main-header">
       <MainHeader />
     </el-header>

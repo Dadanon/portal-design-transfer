@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import NavButtonComponent from '@/components/NavButtonComponent.vue'
 import MainNav from '@/components/MainNav.vue'
 
 const url_logo = '/urbanset_logo.png'
