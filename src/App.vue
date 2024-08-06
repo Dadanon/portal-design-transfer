@@ -3,7 +3,6 @@ import { RouterView } from 'vue-router'
 import MainHeader from '@/components/MainHeader.vue'
 import MainFooter from '@/components/MainFooter.vue'
 import PublicListPanel from '@/components/PublicListPanel.vue'
-import { useModalsStore } from '@/store/modals'
 </script>
 
 <template>
