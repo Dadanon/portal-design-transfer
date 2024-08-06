@@ -4,8 +4,8 @@ import { useModalsStore } from '@/store/modals'
 </script>
 
 <template>
-  <el-drawer v-model="useModalsStore().showPublicList" title="Меню">
-
+  <el-drawer v-model="useModalsStore().showPublicList">
+    <template #header><span style="margin-bottom: 0">Меню</span></template>
     <el-menu
       class="el-menu-vertical-demo"
       :router="true"
